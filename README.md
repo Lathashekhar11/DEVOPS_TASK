@@ -81,13 +81,16 @@ STEP 13: CI/CD with github actions
 
 
 NOW THE SETUP IS COMPLETE.
+
 WHAT IT DOES?
+
 if Developer pushes code →
 GitHub Actions builds image →
 Pushes to DockerHub →
 SSH into VM →
 docker-compose pull →
 Containers restart automatically →
+
 App updated on port 80
 
 Now you can access the application using the SERVER-PUBLIC-IP  (EX: http://server-public-ip)
